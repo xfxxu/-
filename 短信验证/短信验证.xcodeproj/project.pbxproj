@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042783B520ECB283003F4A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042783B420ECB283003F4A6A /* AppDelegate.m */; };
+		042783B820ECB283003F4A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042783B720ECB283003F4A6A /* ViewController.m */; };
+		042783BB20ECB283003F4A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042783B920ECB283003F4A6A /* Main.storyboard */; };
+		042783BD20ECB28F003F4A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042783BC20ECB28F003F4A6A /* Assets.xcassets */; };
+		042783C020ECB28F003F4A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042783BE20ECB28F003F4A6A /* LaunchScreen.storyboard */; };
+		042783C320ECB28F003F4A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042783C220ECB28F003F4A6A /* main.m */; };
+		042783CD20ECB28F003F4A6A /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042783CC20ECB28F003F4A6A /* ____Tests.m */; };
+		042783D820ECB28F003F4A6A /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042783D720ECB28F003F4A6A /* ____UITests.m */; };
+		042783E920ECB812003F4A6A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042783E820ECB812003F4A6A /* MainViewController.m */; };
+		042783EF20ECC3BD003F4A6A /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042783EC20ECC3BC003F4A6A /* MOBFoundation.framework */; };
+		042783F020ECC3BD003F4A6A /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042783EE20ECC3BC003F4A6A /* SMS_SDK.framework */; };
+		042783F320ECC439003F4A6A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042783F220ECC439003F4A6A /* MessageUI.framework */; };
+		042783F520ECC444003F4A6A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042783F420ECC444003F4A6A /* JavaScriptCore.framework */; };
+		042783F720ECC454003F4A6A /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 042783F620ECC454003F4A6A /* libicucore.tbd */; };
+		042783F920ECC45E003F4A6A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 042783F820ECC45E003F4A6A /* libz.tbd */; };
+		042783FB20ECC46F003F4A6A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 042783FA20ECC46F003F4A6A /* libstdc++.tbd */; };
+		042783FD20ECC494003F4A6A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042783FC20ECC494003F4A6A /* AdSupport.framework */; };
+		042783FF20ECC4A1003F4A6A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042783FE20ECC4A1003F4A6A /* SystemConfiguration.framework */; };
+		0427840120ECC4B1003F4A6A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0427840020ECC4B1003F4A6A /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042783C920ECB28F003F4A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042783A820ECB283003F4A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042783AF20ECB283003F4A6A;
+			remoteInfo = "短信验证";
+		};
+		042783D420ECB28F003F4A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042783A820ECB283003F4A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042783AF20ECB283003F4A6A;
+			remoteInfo = "短信验证";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042783B020ECB283003F4A6A /* 短信验证.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "短信验证.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042783B320ECB283003F4A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042783B420ECB283003F4A6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042783B620ECB283003F4A6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		042783B720ECB283003F4A6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042783BA20ECB283003F4A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042783BC20ECB28F003F4A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042783BF20ECB28F003F4A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042783C120ECB28F003F4A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042783C220ECB28F003F4A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042783C820ECB28F003F4A6A /* 短信验证Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "短信验证Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042783CC20ECB28F003F4A6A /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		042783CE20ECB28F003F4A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042783D320ECB28F003F4A6A /* 短信验证UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "短信验证UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042783D720ECB28F003F4A6A /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		042783D920ECB28F003F4A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042783E720ECB812003F4A6A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		042783E820ECB812003F4A6A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		042783EC20ECC3BC003F4A6A /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		042783EE20ECC3BC003F4A6A /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		042783F220ECC439003F4A6A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		042783F420ECC444003F4A6A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		042783F620ECC454003F4A6A /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		042783F820ECC45E003F4A6A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		042783FA20ECC46F003F4A6A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		042783FC20ECC494003F4A6A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		042783FE20ECC4A1003F4A6A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0427840020ECC4B1003F4A6A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042783AD20ECB283003F4A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0427840120ECC4B1003F4A6A /* CoreTelephony.framework in Frameworks */,
+				042783FF20ECC4A1003F4A6A /* SystemConfiguration.framework in Frameworks */,
+				042783FD20ECC494003F4A6A /* AdSupport.framework in Frameworks */,
+				042783FB20ECC46F003F4A6A /* libstdc++.tbd in Frameworks */,
+				042783F920ECC45E003F4A6A /* libz.tbd in Frameworks */,
+				042783F720ECC454003F4A6A /* libicucore.tbd in Frameworks */,
+				042783F520ECC444003F4A6A /* JavaScriptCore.framework in Frameworks */,
+				042783F320ECC439003F4A6A /* MessageUI.framework in Frameworks */,
+				042783EF20ECC3BD003F4A6A /* MOBFoundation.framework in Frameworks */,
+				042783F020ECC3BD003F4A6A /* SMS_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042783C520ECB28F003F4A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042783D020ECB28F003F4A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042783A720ECB283003F4A6A = {
+			isa = PBXGroup;
+			children = (
+				042783B220ECB283003F4A6A /* 短信验证 */,
+				042783CB20ECB28F003F4A6A /* 短信验证Tests */,
+				042783D620ECB28F003F4A6A /* 短信验证UITests */,
+				042783B120ECB283003F4A6A /* Products */,
+				042783F120ECC438003F4A6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042783B120ECB283003F4A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042783B020ECB283003F4A6A /* 短信验证.app */,
+				042783C820ECB28F003F4A6A /* 短信验证Tests.xctest */,
+				042783D320ECB28F003F4A6A /* 短信验证UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042783B220ECB283003F4A6A /* 短信验证 */ = {
+			isa = PBXGroup;
+			children = (
+				042783EA20ECC3BC003F4A6A /* SDK */,
+				042783B320ECB283003F4A6A /* AppDelegate.h */,
+				042783B420ECB283003F4A6A /* AppDelegate.m */,
+				042783B620ECB283003F4A6A /* ViewController.h */,
+				042783B720ECB283003F4A6A /* ViewController.m */,
+				042783E720ECB812003F4A6A /* MainViewController.h */,
+				042783E820ECB812003F4A6A /* MainViewController.m */,
+				042783B920ECB283003F4A6A /* Main.storyboard */,
+				042783BC20ECB28F003F4A6A /* Assets.xcassets */,
+				042783BE20ECB28F003F4A6A /* LaunchScreen.storyboard */,
+				042783C120ECB28F003F4A6A /* Info.plist */,
+				042783C220ECB28F003F4A6A /* main.m */,
+			);
+			path = "短信验证";
+			sourceTree = "<group>";
+		};
+		042783CB20ECB28F003F4A6A /* 短信验证Tests */ = {
+			isa = PBXGroup;
+			children = (
+				042783CC20ECB28F003F4A6A /* ____Tests.m */,
+				042783CE20ECB28F003F4A6A /* Info.plist */,
+			);
+			path = "短信验证Tests";
+			sourceTree = "<group>";
+		};
+		042783D620ECB28F003F4A6A /* 短信验证UITests */ = {
+			isa = PBXGroup;
+			children = (
+				042783D720ECB28F003F4A6A /* ____UITests.m */,
+				042783D920ECB28F003F4A6A /* Info.plist */,
+			);
+			path = "短信验证UITests";
+			sourceTree = "<group>";
+		};
+		042783EA20ECC3BC003F4A6A /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				042783EB20ECC3BC003F4A6A /* Required */,
+				042783ED20ECC3BC003F4A6A /* SMSSDK */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		042783EB20ECC3BC003F4A6A /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				042783EC20ECC3BC003F4A6A /* MOBFoundation.framework */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+		042783ED20ECC3BC003F4A6A /* SMSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				042783EE20ECC3BC003F4A6A /* SMS_SDK.framework */,
+			);
+			path = SMSSDK;
+			sourceTree = "<group>";
+		};
+		042783F120ECC438003F4A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0427840020ECC4B1003F4A6A /* CoreTelephony.framework */,
+				042783FE20ECC4A1003F4A6A /* SystemConfiguration.framework */,
+				042783FC20ECC494003F4A6A /* AdSupport.framework */,
+				042783FA20ECC46F003F4A6A /* libstdc++.tbd */,
+				042783F820ECC45E003F4A6A /* libz.tbd */,
+				042783F620ECC454003F4A6A /* libicucore.tbd */,
+				042783F420ECC444003F4A6A /* JavaScriptCore.framework */,
+				042783F220ECC439003F4A6A /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042783AF20ECB283003F4A6A /* 短信验证 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042783DC20ECB28F003F4A6A /* Build configuration list for PBXNativeTarget "短信验证" */;
+			buildPhases = (
+				042783AC20ECB283003F4A6A /* Sources */,
+				042783AD20ECB283003F4A6A /* Frameworks */,
+				042783AE20ECB283003F4A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "短信验证";
+			productName = "短信验证";
+			productReference = 042783B020ECB283003F4A6A /* 短信验证.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042783C720ECB28F003F4A6A /* 短信验证Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042783DF20ECB28F003F4A6A /* Build configuration list for PBXNativeTarget "短信验证Tests" */;
+			buildPhases = (
+				042783C420ECB28F003F4A6A /* Sources */,
+				042783C520ECB28F003F4A6A /* Frameworks */,
+				042783C620ECB28F003F4A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042783CA20ECB28F003F4A6A /* PBXTargetDependency */,
+			);
+			name = "短信验证Tests";
+			productName = "短信验证Tests";
+			productReference = 042783C820ECB28F003F4A6A /* 短信验证Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042783D220ECB28F003F4A6A /* 短信验证UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042783E220ECB28F003F4A6A /* Build configuration list for PBXNativeTarget "短信验证UITests" */;
+			buildPhases = (
+				042783CF20ECB28F003F4A6A /* Sources */,
+				042783D020ECB28F003F4A6A /* Frameworks */,
+				042783D120ECB28F003F4A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042783D520ECB28F003F4A6A /* PBXTargetDependency */,
+			);
+			name = "短信验证UITests";
+			productName = "短信验证UITests";
+			productReference = 042783D320ECB28F003F4A6A /* 短信验证UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042783A820ECB283003F4A6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					042783AF20ECB283003F4A6A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					042783C720ECB28F003F4A6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 042783AF20ECB283003F4A6A;
+					};
+					042783D220ECB28F003F4A6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 042783AF20ECB283003F4A6A;
+					};
+				};
+			};
+			buildConfigurationList = 042783AB20ECB283003F4A6A /* Build configuration list for PBXProject "短信验证" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042783A720ECB283003F4A6A;
+			productRefGroup = 042783B120ECB283003F4A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042783AF20ECB283003F4A6A /* 短信验证 */,
+				042783C720ECB28F003F4A6A /* 短信验证Tests */,
+				042783D220ECB28F003F4A6A /* 短信验证UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042783AE20ECB283003F4A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042783C020ECB28F003F4A6A /* LaunchScreen.storyboard in Resources */,
+				042783BD20ECB28F003F4A6A /* Assets.xcassets in Resources */,
+				042783BB20ECB283003F4A6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042783C620ECB28F003F4A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042783D120ECB28F003F4A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042783AC20ECB283003F4A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042783B820ECB283003F4A6A /* ViewController.m in Sources */,
+				042783C320ECB28F003F4A6A /* main.m in Sources */,
+				042783B520ECB283003F4A6A /* AppDelegate.m in Sources */,
+				042783E920ECB812003F4A6A /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042783C420ECB28F003F4A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042783CD20ECB28F003F4A6A /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042783CF20ECB28F003F4A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042783D820ECB28F003F4A6A /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042783CA20ECB28F003F4A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042783AF20ECB283003F4A6A /* 短信验证 */;
+			targetProxy = 042783C920ECB28F003F4A6A /* PBXContainerItemProxy */;
+		};
+		042783D520ECB28F003F4A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042783AF20ECB283003F4A6A /* 短信验证 */;
+			targetProxy = 042783D420ECB28F003F4A6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042783B920ECB283003F4A6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042783BA20ECB283003F4A6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042783BE20ECB28F003F4A6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042783BF20ECB28F003F4A6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042783DA20ECB28F003F4A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		042783DB20ECB28F003F4A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042783DD20ECB28F003F4A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X65B677ND5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/短信验证/SDK/Required",
+					"$(PROJECT_DIR)/短信验证/SDK/SMSSDK",
+				);
+				INFOPLIST_FILE = "短信验证/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myMSM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042783DE20ECB28F003F4A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X65B677ND5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/短信验证/SDK/Required",
+					"$(PROJECT_DIR)/短信验证/SDK/SMSSDK",
+				);
+				INFOPLIST_FILE = "短信验证/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myMSM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		042783E020ECB28F003F4A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X65B677ND5;
+				INFOPLIST_FILE = "短信验证Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "miyatu.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/短信验证.app/短信验证";
+			};
+			name = Debug;
+		};
+		042783E120ECB28F003F4A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X65B677ND5;
+				INFOPLIST_FILE = "短信验证Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "miyatu.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/短信验证.app/短信验证";
+			};
+			name = Release;
+		};
+		042783E320ECB28F003F4A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X65B677ND5;
+				INFOPLIST_FILE = "短信验证UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "miyatu.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "短信验证";
+			};
+			name = Debug;
+		};
+		042783E420ECB28F003F4A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X65B677ND5;
+				INFOPLIST_FILE = "短信验证UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "miyatu.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "短信验证";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042783AB20ECB283003F4A6A /* Build configuration list for PBXProject "短信验证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042783DA20ECB28F003F4A6A /* Debug */,
+				042783DB20ECB28F003F4A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042783DC20ECB28F003F4A6A /* Build configuration list for PBXNativeTarget "短信验证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042783DD20ECB28F003F4A6A /* Debug */,
+				042783DE20ECB28F003F4A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042783DF20ECB28F003F4A6A /* Build configuration list for PBXNativeTarget "短信验证Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042783E020ECB28F003F4A6A /* Debug */,
+				042783E120ECB28F003F4A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042783E220ECB28F003F4A6A /* Build configuration list for PBXNativeTarget "短信验证UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042783E320ECB28F003F4A6A /* Debug */,
+				042783E420ECB28F003F4A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042783A820ECB283003F4A6A /* Project object */;
+}

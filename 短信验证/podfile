@@ -1,0 +1,5 @@
+platform:ios
+target '短信验证' do
+pod 'mob_smssdk'
+pod 'mobAPI'
+end
